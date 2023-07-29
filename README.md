@@ -10,6 +10,9 @@ React기반으로 제작한 포트폴리오 홈페이지입니다. 설명추가 
 <br><br>
 <h2 id="outline">:office: 사용 기술</h2>
 - 언어: javascript
+<br>
 - 프레임워크: React
+<br>
 - 데이터베이스: MySQL
+<br>
 - 기타 도구: vs code
