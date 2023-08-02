@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/EunJeeKim0402/react-app/static/js/main.caa68c23.js",
-    "index.html": "/EunJeeKim0402/react-app/index.html",
-    "main.caa68c23.js.map": "/EunJeeKim0402/react-app/static/js/main.caa68c23.js.map"
+    "main.js": "/react-app/static/js/main.f80ff59c.js",
+    "index.html": "/react-app/index.html",
+    "main.f80ff59c.js.map": "/react-app/static/js/main.f80ff59c.js.map"
   },
   "entrypoints": [
-    "static/js/main.caa68c23.js"
+    "static/js/main.f80ff59c.js"
   ]
 }
