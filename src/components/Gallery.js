@@ -1,9 +1,9 @@
-function Youtube() {
+function Gallery() {
     return(
         <div>
-            Youtube
+            Gallery
         </div>
     )
 }
 
-export default Youtube;
+export default Gallery;

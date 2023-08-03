@@ -1,9 +1,9 @@
-function Youtube() {
+function Location() {
     return(
         <div>
-            Youtube
+            Location
         </div>
     )
 }
 
-export default Youtube;
+export default Location;
