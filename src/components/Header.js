@@ -72,7 +72,7 @@ function Header(props) {
                         e => { mobileMenuActive(e) }
                         :
                         null
-                } className="logo"><NavLink exact to="/">Amerimnos</NavLink><span>.</span></h1>
+                } className="logo"><NavLink exact to="/">Eunjee's</NavLink></h1>
                 <ul ref={gnb} onMouseLeave={() => { line.current.classList.remove('on') }} className="gnb">
                     <li ref={line} className="line"></li>
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/department">Department</NavLink></li>
