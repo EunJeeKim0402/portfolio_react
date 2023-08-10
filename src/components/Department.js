@@ -3,57 +3,69 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-//import 'swiper/css/scrollbar'; 
 import "swiper/css/autoplay";
 
 import SwiperCore, { Autoplay, Navigation, Pagination, A11y, Keyboard } from 'swiper';
 //import { HashLink } from "react-router-hash-link";
 SwiperCore.use([Autoplay, Keyboard, Navigation, Pagination, A11y]);
 
-//import SwiperCore, { Autoplay, Navigation, Pagination, A11y, Scrollbar, Keyboard } from 'swiper'; // Keyboard도 추가
-//SwiperCore.use([Autoplay, Keyboard, Navigation, Pagination, A11y, Scrollbar]); // Scrollbar 추가
-
 function Department() {
     
-
     let url = process.env.PUBLIC_URL;
+    const [swiperItem, setSwiperItem] = useState([]);
+    let departSwiper = useRef(null);
 
     return(
 
         <section className="departmentConts">
             <h1 className="tit">
-                <span>the</span> Eunjee's <br/> Portfolio
+                <span>Eunjee's Portfolio </span>
             </h1>
             {/* <img src="../image/workpeople" alt="Work People" /> */}
 
             <Swiper
                 className='departSwiper'
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                modules={[Navigation, Pagination, A11y, Autoplay]}
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={1}
                 keyboard={{
                     "enabled": true
                 }}
+                /*
                 breakpoints={{
                     "769": {
                         "slidesPerView": 2,
                         "slidesPerGroup": 2
                     }
                 }}
+                */
                 navigation={true}
-                pagination={{ clickable: true }}
+                pagination={{ 
+                    clickable: true,
+                    type: 'faction',
+                }}
                 scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
+                onSwiper={
+                    (swiper) => {
+                        //const slideItemWrap = document.createElement('div');
+                        //slideItemWrap.classList.add('swiper-wrapper-wrapper');
+                        //swiper.wrapperEl.before(slideItemWrap);
+                        //slideItemWrap.append(swiper.wrapperEl);
+                        swiper.wrapperEl.classList.add('swiper-wrapper-wrapper');
+                    }
+                }
                 onSlideChange={() => console.log('slice change')}
             >
-                <SwiperSlide><img src={`../image/workpeople`} alt="img1" /></SwiperSlide>
-                <SwiperSlide><img src={`../image/workpeople`} alt="img1" /></SwiperSlide>
-                <SwiperSlide><img src={`../image/workpeople`} alt="img1" /></SwiperSlide>
-                <SwiperSlide><img src={`../image/workpeople`} alt="img1" /></SwiperSlide>
-                <SwiperSlide><img src={`../image/workpeople`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
             </Swiper>
         </section>        
-        
     )
 }
 
