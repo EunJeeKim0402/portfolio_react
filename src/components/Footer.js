@@ -16,7 +16,7 @@ function Footer() {
                 <li className="nav">
                     <h2>Links</h2>
                     <ul className="list">
-                        <li><NavLink exact to="/department">Department</NavLink></li>
+                        <li><NavLink exact to="/portfolio">Portfolio</NavLink></li>
                         <li><NavLink exact to="/community">Community</NavLink></li>
                         <li><NavLink exact to="/gallery">Gallery</NavLink></li>
                         <li><NavLink exact to="/youtube">Youtube</NavLink></li>

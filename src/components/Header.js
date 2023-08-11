@@ -75,7 +75,7 @@ function Header(props) {
                 } className="logo"><NavLink exact to="/">Eunjee's</NavLink></h1>
                 <ul ref={gnb} onMouseLeave={() => { line.current.classList.remove('on') }} className="gnb">
                     <li ref={line} className="line"></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/department">Department</NavLink></li>
+                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/portfolio">Portfolio</NavLink></li>
                     <li><NavLink activeStyle={clickStyle} onClick={() => { firstLoading(); mobileMenuActive() }} onMouseEnter={lineMove} to="/community?firstConst=on">Community</NavLink></li>
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/gallery">Gallery</NavLink></li>
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/youtube">Youtube</NavLink></li>

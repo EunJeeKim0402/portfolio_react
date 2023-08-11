@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Community from './components/Community';
-import Department from './components/Department';
+import Portfolio from './components/Portfolio';
 import Gallery from './components/Gallery';
 import Join from './components/Join';
 import Location from './components/Location';
@@ -17,7 +17,7 @@ function App() {
       
       <Route exact path='/' component={Main}></Route>
       <Route exact path='/community' component={Community}></Route>
-      <Route exact path='/department' component={Department}></Route>
+      <Route exact path='/portfolio' component={Portfolio}></Route>
       <Route exact path='/youtube' component={Youtube}></Route>      
       <Route exact path='/gallery' component={Gallery}></Route>
       <Route exact path='/location' component={Location}></Route>

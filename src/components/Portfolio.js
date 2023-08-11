@@ -17,7 +17,7 @@ function Department() {
 
     return(
 
-        <section className="departmentConts">
+        <section className="portfolioConts">
             <h1 className="tit">
                 <span>Eunjee's Portfolio </span>
             </h1>
@@ -56,7 +56,10 @@ function Department() {
                 }
                 onSlideChange={() => console.log('slice change')}
             >
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img1" />
+                    <span>포트폴리오1</span>
+                </SwiperSlide>
                 <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
                 <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
                 <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>

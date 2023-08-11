@@ -1,0 +1,50 @@
+.portfolioConts {
+    padding-top: 10px;
+    position: relative;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+    transform: translateY(0px);
+	transition: all 1s ease-in-out 1s;
+	z-index: 1;
+	.tit {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: #001f33;
+        margin: -440px 0 0 -770px;
+        span {
+            font-family: "Cormorant", serif;
+        }
+    }
+    .departSwiper {
+        height: 100vh;
+        .swiper-wrapper-wrapper {
+        }
+        .swiperImg {
+            width: 400px;
+            height: 460px;
+            display: flex; /* Flex 컨테이너로 설정 */
+            justify-content: center; /* 가로 중앙 정렬 */
+            align-items: center; 
+            img {
+                object-fit: cover;
+                width: 60%;
+                height: 110%;
+                margin: 300px 0 0 0px;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+            }
+            span {
+				top: 0;
+				left: 0;
+				text-align: left;
+				margin-top: 900px;
+                margin-right: 570px;
+                margin-left: -570px;
+				font-size: 16px;
+			}
+        }
+    }
+}

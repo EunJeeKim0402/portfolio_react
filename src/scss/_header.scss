@@ -4,6 +4,10 @@ body.isScroll {
 
 header {
 	position: relative;
+	//position: sticky;	
+	//margin-top: -10px;
+	//padding-bottom: 10px;
+	//position: fixed;
 	width: 100%;
 	background: #f6f8f6;
 	z-index: 1;
