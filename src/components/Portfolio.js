@@ -9,7 +9,7 @@ import SwiperCore, { Autoplay, Navigation, Pagination, A11y, Keyboard } from 'sw
 //import { HashLink } from "react-router-hash-link";
 SwiperCore.use([Autoplay, Keyboard, Navigation, Pagination, A11y]);
 
-function Department() {
+function Portfolio() {
     
     let url = process.env.PUBLIC_URL;
     const [swiperItem, setSwiperItem] = useState([]);
@@ -72,4 +72,4 @@ function Department() {
     )
 }
 
-export default Department;
+export default Portfolio;
