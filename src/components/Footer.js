@@ -5,12 +5,12 @@ function Footer() {
         <footer>
             <ul className="inner">
                 <li className="info">
-                    <h1 className='logo'><NavLink exact to="/">Eunjee's</NavLink></h1>
+                    <h1 className='logo'><NavLink exact to="/">Dev Eunjee</NavLink></h1>
                     <p>portfolio</p>
                     <div className="sns">
-                        <a href="#"><i className="fa-brands fa-github"></i></a>
-                        <a href="#"><i className="fa-brands fa-blogger-b"></i></a>
-                        <a href="#"><i className="fa-regular fa-note-sticky"></i></a>
+                    <a href="https://github.com/EunJeeKim0402"><i className="fa-brands fa-github"></i></a>
+                        <a href="https://blog.naver.com/adserina"><i className="fa-brands fa-blogger-b"></i></a>
+                        <a href="https://www.notion.so/Clean-Code-4b55cc0e9cea42edb8b728c9ae5e202f"><i className="fa-regular fa-note-sticky"></i></a>
                     </div>
                 </li>
                 <li className="nav">
@@ -22,15 +22,6 @@ function Footer() {
                         <li><NavLink exact to="/youtube">Youtube</NavLink></li>
                         <li><NavLink exact to="/location">Location</NavLink></li>
                         <li><NavLink exact to="/join">Join</NavLink></li>
-                    </ul>
-                </li>
-                <li className="nav">
-                    <h2>Legal</h2>
-                    <ul className="list">
-                        <li><NavLink exact to="/privacy">Privacy Policy</NavLink></li>
-                        <li><NavLink exact to="/terms">Terms of Conditions</NavLink></li>
-                        <li><NavLink exact to="/faq">Faq</NavLink></li>
-                        <li><NavLink exact to="/help">Help Center</NavLink></li>
                     </ul>
                 </li>
                 <li className="contactUs">

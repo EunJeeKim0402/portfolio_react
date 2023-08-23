@@ -46,7 +46,8 @@ header {
 
 	.logo {
 		width: 31%;
-		font-size: 37px;
+		font-size: 37px;		
+		color: #4a6869 !important;
 		span {
 			color: #4a6869;
 		}
@@ -72,11 +73,12 @@ header {
 		li {
 			position: relative;
 			font-size: 19px;
-			color: #4a6869;
+			color: #4a6869 !important;
 			font-weight: 500;
 			overflow: hidden;
 			transition: all 0.5s;
 			a {
+				color: #4a6869;
 				transition: all 0.5s;
 				&:hover {
 					color: rgb(43, 174, 41);
@@ -355,7 +357,6 @@ header {
 			align-items: center;
 			align-content: center;
 		}
-
 		.logo {
 			opacity: 0;
 			width: 100%;
@@ -375,8 +376,7 @@ header {
 			width: 100%;
 			display: flex;
 			flex-direction: column;
-			flex-wrap: wrap;
-
+			flex-wrap: wrap;	
 			.line {
 				display: none;
 				&.on {
@@ -390,7 +390,7 @@ header {
 				margin: 20px auto;
 				padding-bottom: 7px;
 				text-align: center;
-				color: #b1d2d3;
+				color: #4a6869;
 				border-bottom: dotted 2px #7b7b7b;
 				a {
 					&:hover {

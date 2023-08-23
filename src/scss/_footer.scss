@@ -39,6 +39,7 @@ footer {
 				border-radius: 84px;
 				border: solid 1px #e9e9ea;
 				transition: 0.5s;
+				color: #4a6869;
 				&:hover {
 					background-color: #edf0f0;
 					color: #698182;
@@ -63,11 +64,14 @@ footer {
 					color:rgb(43, 174, 41);
 				}
 			}
+			a {
+				color: #4a6869 !important;
+			}
 		}
 	}
 	.contactUs {
 		width: 22.1%;
-		margin-left: auto;
+		margin-left: 100px;
 		li {
 			margin-bottom: 31px;
 			font-size: 17px;
@@ -81,6 +85,9 @@ footer {
 				&:hover{
 					color:rgb(43, 174, 41);
 				}
+			}
+			a {
+				color: #4a6869 !important;
 			}
 		}
 	}
@@ -129,7 +136,7 @@ footer {
 		.contactUs {
 			li {
 				span {
-					font-size: 15px;
+					font-size: 19px;
 				}
 			}
 		}

@@ -19,7 +19,7 @@ function Portfolio() {
 
         <section className="portfolioConts">
             <h1 className="tit">
-                <span>Eunjee's Portfolio </span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;Eunjee's Portfolio </span>
             </h1>
             {/* <img src="../image/workpeople" alt="Work People" /> */}
 
