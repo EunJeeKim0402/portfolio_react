@@ -76,16 +76,20 @@ function Header(props) {
                 <ul ref={gnb} onMouseLeave={() => { line.current.classList.remove('on') }} className="gnb">
                     <li ref={line} className="line"></li>
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={() => { firstLoading(); mobileMenuActive() }} onMouseEnter={lineMove} to="/community?firstConst=on">Community</NavLink></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/gallery">Gallery</NavLink></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/youtube">Youtube</NavLink></li>
-                    <li><NavLink exact activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/location">Location</NavLink></li>
+                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/career">Career</NavLink></li>
+                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/study">Study</NavLink></li>                
                 </ul>
                 <NavLink className="join" exact activeStyle={clickStyle1} onClick={mobileMenuActive} to="/Join" data-text="Join">
-                    <span>J</span>
+                    <span>C</span>
                     <span>o</span>
-                    <span>i</span>
                     <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>t</span>
+                    <span>&nbsp;</span>
+                    <span>M</span>
+                    <span>e</span>
                     <span className="material-icons-round">arrow_forward_ios</span>
                 </NavLink>
                 <button ref={mobileBtn} onClick={mobileMenuActive} className="totalMenuBtn"></button>

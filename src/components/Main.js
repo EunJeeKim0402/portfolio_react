@@ -76,9 +76,9 @@ function Main() {
                             <h2>Database</h2>
                             <hr />
                             <p>
-                                oracle
-                                mysql
-                                mssql
+                                <img src={`${url}/img/oracle.svg`} alt="oracle" />
+                                <img src={`${url}/img/mssql.svg`} alt="mssql" />
+                                <img src={`${url}/img/mysql.svg`} alt="mysql" />
                             </p> 
                         </li>
                         <li className='item'>
@@ -88,12 +88,13 @@ function Main() {
                             <h2>Version Control</h2>
                             <hr />
                             <p>
-                                git
-                                github
+                                <img src={`${url}/img/git.svg`} alt="git" />
+                                <img src={`${url}/img/github.svg`} alt="github" />
                             </p> 
                         </li>
                     </ul>
                 </div>                
+                <img src={`${url}/img/rabbit.png`} alt="rabbit" className='bg2' />
             </section>
         </>
 

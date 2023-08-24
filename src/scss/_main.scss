@@ -181,4 +181,15 @@
 			}
         }		
     }
+	.bg2 {
+		position: absolute;
+		width: 330px;
+		left: -77px;
+		bottom: 20px;
+		z-index: 1;
+		transform: scaleX(-1); /*좌우반전*/
+		path {
+			fill: #e0e7e1;
+		}
+	}
 }
