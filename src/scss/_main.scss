@@ -193,3 +193,47 @@
 		}
 	}
 }
+
+.mainConts3 {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 75px 0;
+	background: #fbfbfc;
+	align-items: center;
+	justify-content: center;
+	.inner {
+		width: 1200px;
+	}
+	h1 {
+		font-size: 90px;
+		text-align: center;
+	}
+	p {
+		margin-bottom: 90px;
+		font-size: 15px;
+		text-align: left;
+	}
+	.conts {
+		display: flex;
+	}
+	.process {
+		display: flex;
+		width: 40%;
+		.left {
+			width: 25%;
+		}
+		.num {
+			display: flex;
+			align-items: 50px;
+			border-radius: 50px;
+			background: #000;
+			font-size: 19px;
+			color: #fff;
+		}
+		.conts {
+			width: 60%;
+		}		
+	}
+}
