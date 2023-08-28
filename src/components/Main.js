@@ -14,8 +14,8 @@ function Main() {
                     <h2>매일 발전해나가는 <br></br>주니어 개발자입니다.</h2>
                     <div className="bottomText">
                         저는 직장인 코딩 취미반을 듣다가 큰 매력을 느껴 개발자를 꿈꾸게 되었습니다.<br/>
-                        구디아카데미에서 풀스택 수업을 듣고 8개월간 erp개발자로 근무하였습니다만,<br/>
-                        좀 더 폭넓은 개발을 하고 싶어 새롭게 프론트엔드로 도전하게 되었습니다.<br/><br/>
+                        구디아카데미에서 8개월간 수업을 듣고 erp개발자로 근무하였습니다만,<br/>
+                        좀 더 폭넓은 개발을 하고 싶어 새롭게 프론트엔드에 도전하게 되었습니다.<br/><br/>
 
                         저는 꾸준하게 공부하는 스타일이며 팀원들과의 협업을 중시합니다.<br/>
                         넘어지는 것을 두려워하지 않고 계속 발전해나가는 프론트엔드 개발자로 성장하겠습니다.
@@ -102,50 +102,58 @@ function Main() {
                 </div>
                 <ul className='conts'>
                     <li className='process'>
-                        <div className='left'>
-                            <div className='num'>01.</div>
+                        <div className='item'>
+                            <div className='left'>
+                                <div className='num'>01.</div>
+                                <span className='arrow'></span>   
+                            </div>
+                            <div className='conts'>
+                                <h2>제일 최신 활동</h2>
+                                <p>최신최신</p>
+                            </div>
+                        </div>
+                        <div className='item'>
+                            <div className='left'>
+                                <div className='num'>01.</div>
+                                <span className='arrow'></span>   
+                            </div>
+                            <div className='conts'>
+                                <h2>제일 최신 활동</h2>
+                                <p>최신최신</p>
+                            </div>
+                        </div>
+                        <div className='item'>
+                            <div className='left'>
+                                <div className='num'>01.</div>
+                                <span className='arrow'></span>   
+                            </div>
+                            <div className='conts'>
+                                <h2>제일 최신 활동</h2>
+                                <p>최신최신</p>
+                            </div>
+                        </div>
+                        <div className='item'>
+                            <div className='left'>
+                                <div className='num'>01.</div>
+                                <span className='arrow'></span>   
+                            </div>
+                            <div className='conts'>
+                                <h2>제일 최신 활동</h2>
+                                <p>최신최신</p>
+                            </div>
+                        </div>
+                        <div className='item'>
+                            <div className='left'>
+                                <div className='num'>01.</div>
+                                <span className='arrow'></span>   
+                            </div>
                             <div className='conts'>
                                 <h2>제일 최신 활동</h2>
                                 <p>최신최신</p>
                             </div>
                         </div>
                     </li>
-                    <li className='process'>
-                        <div className='left'>
-                            <div className='num'>01.</div>
-                            <div className='conts'>
-                                <h2>제일 최신 활동</h2>
-                                <p>최신최신</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='process'>
-                        <div className='left'>
-                            <div className='num'>01.</div>
-                            <div className='conts'>
-                                <h2>제일 최신 활동</h2>
-                                <p>최신최신</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='process'>
-                        <div className='left'>
-                            <div className='num'>01.</div>
-                            <div className='conts'>
-                                <h2>제일 최신 활동</h2>
-                                <p>최신최신</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li className='process'>
-                        <div className='left'>
-                            <div className='num'>01.</div>
-                            <div className='conts'>
-                                <h2>제일 최신 활동</h2>
-                                <p>최신최신</p>
-                            </div>
-                        </div>
-                    </li>
+                   
                 </ul>
             </section>
         </>
