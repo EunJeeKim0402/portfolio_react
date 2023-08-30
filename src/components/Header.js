@@ -79,7 +79,7 @@ function Header(props) {
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/career">Career</NavLink></li>
                     <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/study">Study</NavLink></li>                
                 </ul>
-                <NavLink className="join" exact activeStyle={clickStyle1} onClick={mobileMenuActive} to="/Join" data-text="Join">
+                <NavLink className="join" exact activeStyle={clickStyle1} onClick={mobileMenuActive} to="/Join" data-text="Contact Me">
                     <span>C</span>
                     <span>o</span>
                     <span>n</span>

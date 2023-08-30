@@ -185,7 +185,7 @@
 		position: absolute;
 		width: 330px;
 		left: -77px;
-		bottom: 20px;
+		bottom: -80px;
 		z-index: 1;
 		transform: scaleX(-1); /*좌우반전*/
 		path {
@@ -207,6 +207,7 @@
 	touch-action: none;
 	.inner {
 		width: 1200px;
+		margin-right: -100px;
 		> h1 {
 			margin-bottom: 26px;
 			font-size: 73px;
@@ -230,6 +231,7 @@
 
 	.process {
 		display: flex;
+		/*flex-direction: column; /* 요소들을 세로로 나열 */
 		width: 41.7%;
 		flex-wrap: wrap;
 		align-items: flex-start;
@@ -279,11 +281,13 @@
 		.arrow {
 			position: relative;
 			display: flex;
-			align-items: flex-end;
+			//align-items: flex-end;
+			align-items: flex-start;
 			width: 3px;
 			height: 60px;
 			background: repeating-linear-gradient(
-				to top,
+				/*to top,*/
+				to bottom,
 				#c7c9c9,
 				#c7c9c9 8px,
 				#fff0 8px,
@@ -293,9 +297,11 @@
 				content: "";
 				display: block;
 				position: absolute;
-				bottom: 0px;
+				/*bottom: 0px;*/
+				top:0px;
 				width: 15px;
-				margin: 0 0 6px -9px;
+				/*margin: 0 0 6px -9px;*/
+				margin: 6px 0 0 -9px;
 				height: 3px;
 				border-left: solid 3px #c7c9c9;
 				border-right: solid 3px #c7c9c9;
@@ -303,7 +309,8 @@
 			}
 		}
 		.conts {
-			width: 60%;
+			width: 700px;
+			margin-right: -450px;			
 			h2 {
 				margin-bottom: 8px;
 				font-size: 27px;
@@ -318,5 +325,14 @@
 				transition: all 0.5s;
 			}
 		}	
+	}
+	.bg3 {		
+		width: 250px;
+		right: -550px;
+		bottom: -80px;
+		z-index: 1;
+		Path {
+			fill: #e0e7e1;
+		}
 	}
 }
