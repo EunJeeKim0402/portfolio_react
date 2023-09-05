@@ -6,7 +6,6 @@ import Main from './components/main/Main';
 import Career from './components/Career';
 import Portfolio from './components/Portfolio';
 import Study from './components/Study';
-import Join from './components/Join';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
       <Route exact path='/career' component={Career}></Route>
       <Route exact path='/portfolio' component={Portfolio}></Route>   
       <Route exact path='/study' component={Study}></Route>
-      <Route exact path='/join' component={Join}></Route>
+      {/* <Route exact path='/join' component={Join}></Route> */}
 
       <Footer></Footer>   
     </div>

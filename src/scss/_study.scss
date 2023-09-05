@@ -1,0 +1,105 @@
+.studyConts {
+    padding: 60px 0 60px;
+    background-color: #ffffff;
+
+    .inner {
+        display: flex;
+        width: 1440px;
+        margin: 0 auto;
+        color: #656565;        
+    }
+    aside {
+        width: 15%;
+		padding: 0 34px 34px 34px;
+        h1 {
+            margin-bottom: 50px;
+			font-size: 20px;
+			font-weight: 400;
+        }
+        .menu {
+            margin-top: 30px;
+			padding-bottom: 14px;
+			border-bottom: solid 1px var(--youtubeMenuTxtColor);
+			.tit {
+				margin-bottom: 18px;
+				color: #4f4e5d;
+				font-size: 14px;
+				letter-spacing: 2px;
+				font-weight: 600;
+			}
+            .item {
+                display: flex;
+				margin-bottom: 30px;
+				color: var(--youtubeMenuTxtColor);
+				align-items: center;
+				font-size: 15px;
+				letter-spacing: 1px;
+				cursor: pointer;
+				span {
+					margin-right: 15px;
+					padding: 7px;
+					background-color: var(--youtubeMenuIconBgColor);
+					color: var(--youtubeMenuTxtColor);
+					border-radius: 11px;
+					font-size: 18px;
+				}
+            }
+        }
+        .category {
+            margin-top: 44px;
+			padding-bottom: 20px;
+			.tit {
+				margin-bottom: 18px;
+				color: #4f4e5d;
+				font-size: 15px;
+				letter-spacing: 2px;
+				font-weight: 600;
+			}
+            .item {
+				display: flex;
+				margin-bottom: 30px;
+				color: var(--youtubeMenuTxtColor);
+				align-items: center;
+				font-size: 15px;
+				letter-spacing: 1px;
+				cursor: pointer;
+				span {
+					margin-right: 15px;
+					padding: 7px;
+					background-color: var(--youtubeMenuIconBgColor);
+					color: var(--youtubeMenuTxtColor);
+					border-radius: 11px;
+					font-size: 21px;
+                }
+            }
+        }
+    }
+    main {
+        width: 85%;
+		padding-left: 65px;
+		padding-right: 59px;
+        .topConts {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 36px;
+			align-items: flex-start;
+            > label {
+                position: relative;
+				width: 54%;
+				font-size: 0;
+            }
+        }
+        .constTit {
+			margin-bottom: 24px;
+			font-size: 40px;
+			letter-spacing: 2.2px;
+			font-weight: 600;
+		}
+        .studyConts1 {
+            display: flex;
+			height: 367px;
+			margin-bottom: 57px;
+			cursor: pointer;
+        }
+    }
+}
