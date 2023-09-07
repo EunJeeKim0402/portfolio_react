@@ -44,32 +44,56 @@ function Study() {
                     </div>
                     <h2 className="constTit">Board</h2>
                     <ul className="studyConts1">
-                        <li>
-                            <div className="studyWrap">
-                                <iframe src="test" frameborder="0" title="board"></iframe>
-                            </div>
-                            <div className="tit">가나다라</div>
+                        <li className="studyWrap">
+                            가나다라
                         </li>
-                        <li>
-                            <div className="studyWrap">
-                                <iframe src="test" frameborder="0" title="board"></iframe>
-                            </div>
-                            <div className="tit">가나다라</div>
+                        <li className="studyWrap">
+                            가나다라
                         </li>
                     </ul>
-                    <h2>Board</h2>
+                    <h2>React</h2>
                     <ul className="studyConts1">
-                        <li>
-                            <div className="studyWrap">
-                                <iframe src="test" frameborder="0" title="board"></iframe>
-                            </div>
-                            <div className="tit">가나다라</div>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
                         </li>
-                        <li>
-                            <div className="studyWrap">
-                                <iframe src="test" frameborder="0" title="board"></iframe>
-                            </div>
-                            <div className="tit">가나다라</div>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                    </ul>
+                    <h2>HTML/CSS</h2>
+                    <ul className="studyConts1">
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                    </ul>
+                    <h2>Computer Science</h2>
+                    <ul className="studyConts1">
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
+                        </li>
+                        <li className="studyWrap">
+                            <div className="tit">마바사</div>
                         </li>
                     </ul>
                 </main>
