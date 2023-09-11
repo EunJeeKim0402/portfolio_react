@@ -46,10 +46,13 @@ header {
 	.logo {
 		width: 31%;
 		font-size: 37px;		
-		color: #4a6869 !important;
+		color: #4a6869;
 		span {
 			color: #4a6869;
 		}
+	}
+	.logoColor {
+		color: #4a6869;
 	}
 	.gnb {
 		position: relative;

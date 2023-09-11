@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <ul className="inner">
                 <li className="info">
-                    <h1 className='logo'><NavLink exact to="/">Dev Eunjee</NavLink></h1>
+                    <h1 className='logo'><NavLink exact to="/" className="logoColor">Dev Eunjee</NavLink></h1>
                     <p>portfolio</p>
                     <div className="sns">
                     <a href="https://github.com/EunJeeKim0402"><i className="fa-brands fa-github"></i></a>

@@ -11,11 +11,15 @@
     aside {
         width: 15%;
 		padding: 0 34px 34px 34px;
-        h1 {
+        .studyLink {
             margin-bottom: 50px;
 			font-size: 20px;
 			font-weight: 400;
+			color: #4f4e5d;
         }
+		.categoryLink {
+			color: #8a8a8a;
+		}
         .menu {
             margin-top: 30px;
 			padding-bottom: 14px;
@@ -31,9 +35,9 @@
                 display: flex;
 				margin-bottom: 30px;
 				color: #8a8a8a;
-				align-items: center;
+				align-items: center;				
 				font-size: 15px;
-				letter-spacing: 1px;
+				letter-spacing: 1px;			
 				cursor: pointer;
 				span {
 					margin-right: 15px;
@@ -42,8 +46,9 @@
 					color: #8a8a8a;
 					border-radius: 11px;
 					font-size: 18px;
-				}
-            }
+					width: 100px;
+				}				
+            }			
         }
         .category {
             margin-top: 44px;

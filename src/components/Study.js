@@ -1,25 +1,11 @@
+import StudyCategory from './StudyCategory';
+import { NavLink } from 'react-router-dom';
+
 function Study() {
     return(
         <section className="studyConts">
             <div className="inner">
-                <aside>
-                    <h1>Study board</h1>
-                    <ul className="category">
-                        <li className="tit">CATEGORY</li>
-                        <li className="item">
-                            <span>아이콘</span>
-                            Topic
-                        </li>
-                        <li className="item">
-                            <span>아이콘</span>
-                            Topic
-                        </li>
-                        <li className="item">
-                            <span>아이콘</span>
-                            Topic
-                        </li>
-                    </ul>
-                </aside>
+                <StudyCategory />
                 <main>
                     <div className="topConts">
                     </div>

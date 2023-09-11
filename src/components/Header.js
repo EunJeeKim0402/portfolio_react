@@ -14,24 +14,6 @@ function Header(props) {
     const mobileBtn = useRef(null);
     const line = useRef(null);
 
-
-
-    function mobileMenuActive(e) {
-        if (document.documentElement.clientWidth < 992) {
-            if (isMenuOpen) {
-                setIsMenuOpen(false);
-            } else {
-                setIsMenuOpen(true);
-            }
-
-
-            mobileBtn.current.classList.toggle("on");
-            document.querySelector('body').classList.toggle("isScroll");
-            if (props.menuMobile === 'mobile') return props.setMenuMobile('');
-            props.setMenuMobile('mobile');
-        }
-    }
-
     function lineMove(e) {
 
         line.current.classList.add('on');
@@ -64,22 +46,16 @@ function Header(props) {
     }
 
     return (
-        <header ref={header} className={`${props.frame} ${props.menuMobile}`}>
+        <header ref={header} className={`${props.frame}`}>
             <div className="inner">
-                <h1 ref={logo} onClick={
-                    isMenuOpen
-                        ?
-                        e => { mobileMenuActive(e) }
-                        :
-                        null
-                } className="logo"><NavLink exact to="/">Dev Eunjee</NavLink></h1>
+                <h1 ref={logo} className="logo"><NavLink exact to="/" className="logoColor">Dev Eunjee</NavLink></h1>
                 <ul ref={gnb} onMouseLeave={() => { line.current.classList.remove('on') }} className="gnb">
                     <li ref={line} className="line"></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/career">Career</NavLink></li>
-                    <li><NavLink activeStyle={clickStyle} onClick={mobileMenuActive} onMouseEnter={lineMove} to="/study">Study</NavLink></li>                
+                    <li><NavLink activeStyle={clickStyle} onMouseEnter={lineMove} to="/portfolio">Portfolio</NavLink></li>
+                    <li><NavLink activeStyle={clickStyle} onMouseEnter={lineMove} to="/career">Career</NavLink></li>
+                    <li><NavLink activeStyle={clickStyle} onMouseEnter={lineMove} to="/study">Study</NavLink></li>                
                 </ul>
-                <NavLink className="join" exact activeStyle={clickStyle1} onClick={mobileMenuActive} to="/Join" data-text="Contact Me">
+                <NavLink className="join" exact activeStyle={clickStyle1} to="/Join" data-text="Contact Me">
                     <span>C</span>
                     <span>o</span>
                     <span>n</span>
@@ -92,7 +68,6 @@ function Header(props) {
                     <span>e</span>
                     <span className="material-icons-round">arrow_forward_ios</span>
                 </NavLink>
-                <button ref={mobileBtn} onClick={mobileMenuActive} className="totalMenuBtn"></button>
             </div>
         </header>
     )
