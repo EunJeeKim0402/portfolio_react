@@ -5,10 +5,10 @@ import Footer from './components/Footer';
 import Main from './components/main/Main';
 import Career from './components/Career';
 import Portfolio from './components/Portfolio';
-import Study from './components/Study';
-import StudyReact from './components/StudyReact';
-import StudyCS from './components/StudyCS';
-import StudyHTML from './components/StudyHTML';
+import Study from './components/study/Study';
+import StudyReact from './components/study/StudyReact';
+import StudyCS from './components/study/StudyCS';
+import StudyHTML from './components/study/StudyHTML';
 
 function App() {
   return (
