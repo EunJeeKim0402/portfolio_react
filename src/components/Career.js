@@ -18,8 +18,8 @@ function Career() {
                             <div className='conts'>
                                 <Reveal cascade>
                                     <Flip top>
-                                        <h2>메가스터디 IT아카데미</h2>
-                                        <p>(2022.01 ~ 2022.02) 파이썬, C++ 직장인 주말 코딩교육.</p>
+                                        <h2>혜인</h2>
+                                        <p>(2022.12 ~ 2023.07) 무역회사 전산팀, ERP 개발</p>
                                     </Flip>
                                 </Reveal>
                             </div>
@@ -35,13 +35,13 @@ function Career() {
                             <div className='conts'>
                                 <Reveal cascade>
                                     <Flip top delay={100}>
-                                        <h2>React 클론코딩 (노마드코더)</h2>                                
-                                        <p>(2023.07 ~ 2023.07) React로 만든 트위터.</p>
+                                        <h2>효성첨단소재</h2>                                
+                                        <p>(2021.04 ~ 2022.04) 수출입 사무담당</p>
                                     </Flip>
                                 </Reveal>
                             </div>
                             <div className='left'>
-                                <div className='num'>04.</div>
+                                <div className='num'>03.</div>
                                 <span className='arrow'></span>   
                             </div>
                         </div>
@@ -49,13 +49,13 @@ function Career() {
                             <div className='conts'>
                                 <Reveal cascade>
                                     <Flip top delay={200}>
-                                        <h2>React 클론코딩 (노마드코더)</h2>                                
-                                        <p>(2023.07 ~ 2023.07) React로 만든 트위터.</p>
+                                        <h2>히타치하이테크코리아</h2>                                
+                                        <p>(2019.06 ~ 2020.09) 수출입 사무담당</p>
                                     </Flip>
                                 </Reveal>
                             </div>
                             <div className='left'>
-                                <div className='num'>04.</div>
+                                <div className='num'>02.</div>
                                 <span className='arrow'></span>   
                             </div>
                         </div>
@@ -63,27 +63,13 @@ function Career() {
                             <div className='conts'>
                                 <Reveal cascade>
                                     <Flip top delay={300}>
-                                        <h2>React 클론코딩 (노마드코더)</h2>                                
-                                        <p>(2023.07 ~ 2023.07) React로 만든 트위터.</p>
+                                        <h2>서울시관광협회</h2>                                
+                                        <p>(2016.08 ~ 2018.08) 일본어 관광안내사(움직이는 안내소)</p>
                                     </Flip>
                                 </Reveal>
                             </div>
                             <div className='left'>
-                                <div className='num'>04.</div>
-                                <span className='arrow'></span>   
-                            </div>
-                        </div>
-                        <div className='item'>
-                            <div className='conts'>
-                                <Reveal cascade>
-                                    <Flip top delay={400}>
-                                        <h2>React 클론코딩 (노마드코더)</h2>                                
-                                        <p>(2023.07 ~ 2023.07) React로 만든 트위터.</p>
-                                    </Flip>
-                                </Reveal>
-                            </div>
-                            <div className='left'>
-                                <div className='num'>04.</div>
+                                <div className='num'>01.</div>
                                 <span className='arrow'></span>   
                             </div>
                         </div>

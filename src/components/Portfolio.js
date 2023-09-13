@@ -31,14 +31,6 @@ function Portfolio() {
                 keyboard={{
                     "enabled": true
                 }}
-                /*
-                breakpoints={{
-                    "769": {
-                        "slidesPerView": 2,
-                        "slidesPerGroup": 2
-                    }
-                }}
-                */
                 navigation={true}
                 pagination={{ 
                     clickable: true,
@@ -47,26 +39,35 @@ function Portfolio() {
                 scrollbar={{ draggable: true }}
                 onSwiper={
                     (swiper) => {
-                        //const slideItemWrap = document.createElement('div');
-                        //slideItemWrap.classList.add('swiper-wrapper-wrapper');
-                        //swiper.wrapperEl.before(slideItemWrap);
-                        //slideItemWrap.append(swiper.wrapperEl);
                         swiper.wrapperEl.classList.add('swiper-wrapper-wrapper');
                     }
                 }
                 onSlideChange={() => console.log('slice change')}
             >
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/workpeople.jpg`} alt="img1" />
-                    <span>포트폴리오1</span>
+                    <img src={`${url}/img/reactPortfolio.jpg`} alt="img1" className="img1" />
+                    <span>React 포트폴리오 프로젝트</span>
                 </SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
-                <SwiperSlide className="swiperImg"><img src={`${url}/img/workpeople.jpg`} alt="img1" /></SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img2" />
+                    <span></span>
+                </SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img2" />
+                    <span>React로 만든 트위터(클론코딩)</span>
+                </SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img2" />
+                    <span>하하호호3</span>
+                </SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img2" />
+                    <span>하하호호4</span>
+                </SwiperSlide>
+                <SwiperSlide className="swiperImg">
+                    <img src={`${url}/img/workpeople.jpg`} alt="img2" />
+                    <span>하하호호5</span>
+                </SwiperSlide>
             </Swiper>
         </section>        
     )
