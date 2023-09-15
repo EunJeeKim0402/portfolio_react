@@ -37,7 +37,29 @@
                 margin: 400px 0 0 0px;
                 border: 1px solid rgba(0, 0, 0, 0.2);
             }
+            h2 {
+                font-weight: bolder;
+                font-size: 20px;
+            }
+            .swiperText {
+                text-align: center;
+                align-items: center;
+                button {
+                    display: flex;
+                    width: 100px;
+                    height: 35px;
+                    border: none;
+                    font-size: 14px;
+                    border-radius: 100px;
+                    color: #fff;
+                    background-color:cadetblue;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+            }
             .img1 {
+                margin: 600px 0 0 0px;
             }
             span {
 				top: 0;

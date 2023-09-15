@@ -46,15 +46,26 @@ function Portfolio() {
             >
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/reactPortfolio.jpg`} alt="img1" className="img1" />
-                    <span>React 포트폴리오 프로젝트</span>
+                    <br />
+                    <h2>Portfolio</h2>
+                    <div className="swiperText">
+                        <span>개인 포트폴리오 웹페이지입니다.</span><br/><br/>                         
+                        <b># Period</b>&nbsp;&nbsp;
+                        <span>2023.08~2023.09</span><br/>    
+                        <b># Tech</b>&nbsp;&nbsp;
+                        <span>React Scss HTML</span><br/> 
+                        <b># My Work</b>&nbsp;&nbsp;  
+                        <span>·Design ·Frontend</span><br/><br/> 
+                        <button>source code</button>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/workpeople.jpg`} alt="img2" />
-                    <span></span>
+                    <span>하하호호1</span>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/workpeople.jpg`} alt="img2" />
-                    <span>React로 만든 트위터(클론코딩)</span>
+                    <span>하하호호2</span>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/workpeople.jpg`} alt="img2" />
