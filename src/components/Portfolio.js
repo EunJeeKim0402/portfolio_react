@@ -39,33 +39,6 @@ function Portfolio() {
                 }
                 onSlideChange={() => console.log('slice change')}
             >
-                {/* <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide> */}
-            {/* <Swiper
-                className='departSwiper'
-                modules={[Navigation, Pagination, A11y, Autoplay]}
-                spaceBetween={50}
-                slidesPerView={1}
-                keyboard={{
-                    "enabled": true
-                }}
-                navigation={true}
-                pagination={{ 
-                    clickable: true,
-                    type: 'faction',
-                }}
-                scrollbar={{ draggable: true }}
-                onSwiper={
-                    (swiper) => {
-                        swiper.wrapperEl.classList.add('swiper-wrapper-wrapper');
-                    }
-                }
-                onSlideChange={() => console.log('slice change')}
-            > */}
-
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/reactPortfolio.jpg`} alt="img1" className="img1" />
                     <br />
@@ -84,11 +57,35 @@ function Portfolio() {
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/React클론코딩.jpg`} alt="img2" className="img2" />
-                    <span>하하호호1</span>
+                    <br />
+                    <h2>React 클론코딩 (노마드코더)</h2>
+                    <div className="swiperText">
+                        <span>노마드코더 트위터 클론코딩입니다.</span><br/>   
+                        <span>React와 firebase 이용하여 제작했습니다.</span><br/><br/>                       
+                        <b># Period</b>&nbsp;&nbsp;
+                        <span>2023.07~2023.07</span><br/>    
+                        <b># Tech</b>&nbsp;&nbsp;
+                        <span>React HTML CSS firebase</span><br/> 
+                        <b># My Work</b>&nbsp;&nbsp;  
+                        <span>·Frontend</span><br/><br/> 
+                        <a href="https://github.com/EunJeeKim0402/nwitter">source code</a>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/workpeople.jpg`} alt="img3" className="img3" />
-                    <span>하하호호2</span>
+                    <img src={`${url}/img/dart클론코딩.jpg`} alt="img3" className="img3" />
+                    <br />
+                    <h2>Flutter 클론코딩 (노마드코더)</h2>
+                    <div className="swiperText">
+                        <span>노마드코더 웹툰앱 클론코딩입니다.</span><br/>   
+                        <span>flutter와 dart를 이용하여 제작했습니다.</span><br/><br/>                       
+                        <b># Period</b>&nbsp;&nbsp;
+                        <span>2023.02~2023.03</span><br/>    
+                        <b># Tech</b>&nbsp;&nbsp;
+                        <span>Flutter Dart</span><br/> 
+                        <b># My Work</b>&nbsp;&nbsp;  
+                        <span>·Frontend</span><br/><br/> 
+                        <a href="https://github.com/EunJeeKim0402/toonflix3">source code</a>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/workpeople.jpg`} alt="img4" className="img4" />
