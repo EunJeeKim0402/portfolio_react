@@ -89,15 +89,23 @@ function Portfolio() {
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/workpeople.jpg`} alt="img4" className="img4" />
-                    <span>하하호호3</span>
+                    <br />
+                    <h2>WorkPeople</h2>
+                    <div className="swiperText">
+                        <span>파이널 프로젝트로 제작한 사내 인트라넷입니다.</span><br/>   
+                        <span>'프로젝트' 파트의 프론트/백을 담당했습니다.</span><br/><br/>                       
+                        <b># Period</b>&nbsp;&nbsp;
+                        <span>2022.08~2022.09</span><br/>    
+                        <b># Tech</b>&nbsp;&nbsp;
+                        <span>Javascript Java JSON jQuery SQL SpringFramework</span><br/> 
+                        <b># My Work</b>&nbsp;&nbsp;  
+                        <span>·Frontend ·Backend</span><br/><br/>
+                        &nbsp;<a className="img4a" href="https://github.com/EunJeeKim0402/workpeopleProject">source code</a>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/workpeople.jpg`} alt="img5" className="img5" />
+                    <img src={`${url}/img/Leer.jpg`} alt="img5" className="img5" />
                     <span>하하호호4</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/workpeople.jpg`} alt="img6" className="img6" />
-                    <span>하하호호5</span>
                 </SwiperSlide>
             </Swiper>
         </section>        
