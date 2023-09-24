@@ -105,7 +105,19 @@ function Portfolio() {
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/Leer.jpg`} alt="img5" className="img5" />
-                    <span>하하호호4</span>
+                    <br />
+                    <h2>Flutter 클론코딩 (노마드코더)</h2>
+                    <div className="swiperText">
+                        <span>노마드코더 웹툰앱 클론코딩입니다.</span><br/>   
+                        <span>flutter와 dart를 이용하여 제작했습니다.</span><br/><br/>                       
+                        <b># Period</b>&nbsp;&nbsp;
+                        <span>2023.02~2023.03</span><br/>    
+                        <b># Tech</b>&nbsp;&nbsp;
+                        <span>Flutter Dart</span><br/> 
+                        <b># My Work</b>&nbsp;&nbsp;  
+                        <span>·Frontend</span><br/><br/> 
+                        <a href="https://github.com/EunJeeKim0402/leerProject-1">source code</a>
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </section>        
