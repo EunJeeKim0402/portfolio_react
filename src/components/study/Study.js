@@ -1,8 +1,9 @@
+import React, { useEffect, useRef } from 'react';
 import StudyCategory from './StudyCategory';
-import { NavLink } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 function Study() {
-    return(
+    return (
         <section className="studyConts">
             <div className="inner">
                 <StudyCategory />
@@ -20,52 +21,76 @@ function Study() {
                     </ul>
                     <h2>React</h2>
                     <ul className="studyConts2">
-                        <li className="studyWrap2-1">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap2-2">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap2-3">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap2-4">
-                            <div className="tit">마바사</div>
-                        </li>
+                        <Fade bottom delay={700}>
+                            <li className="studyWrap2-1">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={500}>
+                            <li className="studyWrap2-2">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={400}>
+                            <li className="studyWrap2-3">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={300}>
+                            <li className="studyWrap2-4">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
                     </ul>
                     <br />
 
                     <h2>Computer Science</h2>
                     <ul className="studyConts3">
-                        <li className="studyWrap3-1">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap3-2">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap3-3">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap3-4">
-                            <div className="tit">마바사</div>
-                        </li>
+                        <Fade bottom delay={1000}>
+                            <li className="studyWrap3-1">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={800}>
+                            <li className="studyWrap3-2">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={700}>
+                            <li className="studyWrap3-3">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={600}>
+                            <li className="studyWrap3-4">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
                     </ul>
                     <br />
-                    
-                    <h2>HTML/CSS</h2>                    
+
+                    <h2>HTML/CSS</h2>
                     <ul className="studyConts4">
-                        <li className="studyWrap4-1">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap4-2">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap4-3">
-                            <div className="tit">마바사</div>
-                        </li>
-                        <li className="studyWrap4-4">
-                            <div className="tit">마바사</div>
-                        </li>
+                        <Fade bottom delay={600}>
+                            <li className="studyWrap4-1">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={700}>
+                            <li className="studyWrap4-2">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={800}>
+                            <li className="studyWrap4-3">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
+                        <Fade bottom delay={900}>
+                            <li className="studyWrap4-4">
+                                <div className="tit">마바사</div>
+                            </li>
+                        </Fade>
                     </ul>
                     <br />
                     <br />

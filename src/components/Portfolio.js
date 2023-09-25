@@ -92,12 +92,12 @@ function Portfolio() {
                     <br />
                     <h2>WorkPeople</h2>
                     <div className="swiperText">
-                        <span>파이널 프로젝트로 제작한 사내 인트라넷입니다.</span><br/>   
+                        <span>파이널프로젝트로 제작한 사내 인트라넷입니다.</span><br/>   
                         <span>'프로젝트' 파트의 프론트/백을 담당했습니다.</span><br/><br/>                       
                         <b># Period</b>&nbsp;&nbsp;
                         <span>2022.08~2022.09</span><br/>    
                         <b># Tech</b>&nbsp;&nbsp;
-                        <span>Javascript Java JSON jQuery SQL SpringFramework</span><br/> 
+                        <span>Javascript Java jQuery Ajax SQL SpringFramework</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
                         <span>·Frontend ·Backend</span><br/><br/>
                         &nbsp;<a className="img4a" href="https://github.com/EunJeeKim0402/workpeopleProject">source code</a>
@@ -106,16 +106,16 @@ function Portfolio() {
                 <SwiperSlide className="swiperImg">
                     <img src={`${url}/img/Leer.jpg`} alt="img5" className="img5" />
                     <br />
-                    <h2>Flutter 클론코딩 (노마드코더)</h2>
+                    <h2>Leer</h2>
                     <div className="swiperText">
-                        <span>노마드코더 웹툰앱 클론코딩입니다.</span><br/>   
-                        <span>flutter와 dart를 이용하여 제작했습니다.</span><br/><br/>                       
+                        <span>세미프로젝트로 제작한 잡지 쇼핑몰입니다.</span><br/>   
+                        <span>admin파트를 담당했습니다.</span><br/><br/>                       
                         <b># Period</b>&nbsp;&nbsp;
-                        <span>2023.02~2023.03</span><br/>    
+                        <span>2022.06~2022.07</span><br/>    
                         <b># Tech</b>&nbsp;&nbsp;
-                        <span>Flutter Dart</span><br/> 
+                        <span>Javascript Java jQuery Ajax SQL</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Frontend</span><br/><br/> 
+                        <span>·Frontend ·Backend</span><br/><br/> 
                         <a href="https://github.com/EunJeeKim0402/leerProject-1">source code</a>
                     </div>
                 </SwiperSlide>
