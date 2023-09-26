@@ -9,6 +9,7 @@ import Study from './components/study/Study';
 import StudyReact from './components/study/StudyReact';
 import StudyCS from './components/study/StudyCS';
 import StudyHTML from './components/study/StudyHTML';
+import Study1_1 from './components/study/study_1/Study1_1';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route exact path='/study/react' component={StudyReact}></Route>
       <Route exact path='/study/cs' component={StudyCS}></Route>
       <Route exact path='/study/html' component={StudyHTML}></Route>
+      <Route exact path='/study1_1' component={Study1_1}></Route>
 
       <Footer></Footer>   
     </div>

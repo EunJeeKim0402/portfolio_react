@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import StudyCategory from './StudyCategory';
 import Fade from 'react-reveal/Fade';
+import { NavLink } from 'react-router-dom';
 
 function Study() {
     return (
@@ -12,8 +13,16 @@ function Study() {
                     </div>
                     <h2 className="constTit">Board</h2>
                     <ul className="studyConts1">
+                        {/* <NavLink to="/study" className="studyLink">Study board</NavLink> */}
                         <li className="studyWrap1-1">
-                            가나다라
+                            <NavLink to="/study1_1" className="study1_1" >
+                                <h6>Javascript 기본지식</h6>
+                                <p>
+                                    - 정의
+                                    - 문법 
+                                </p>
+                                <img src='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_js_icon_130458.png'></img>
+                            </NavLink>
                         </li>
                         <li className="studyWrap1-2">
                             가나다라
@@ -46,7 +55,7 @@ function Study() {
 
                     <h2>Computer Science</h2>
                     <ul className="studyConts3">
-                        <Fade bottom delay={1000}>
+                        <Fade bottom delay={900}>
                             <li className="studyWrap3-1">
                                 <div className="tit">마바사</div>
                             </li>
@@ -97,7 +106,12 @@ function Study() {
                 </main>
             </div>
         </section>
-    )
+    );
 }
 
 export default Study;
+
+
+
+
+
