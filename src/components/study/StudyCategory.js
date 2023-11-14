@@ -6,7 +6,7 @@ function StudyCategory() {
             <aside>
                 <NavLink to="/study" className="studyLink">Study board</NavLink>
                 <ul className="category">
-                    <li className="tit">CATEGORY</li>
+                    <li className="tit">CATEGORY</li>   
                     <li className="item">
                         <span>R</span>                    
                         <NavLink to="/study/react" className="categoryLink">React</NavLink>

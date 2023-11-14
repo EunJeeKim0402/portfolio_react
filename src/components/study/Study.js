@@ -15,7 +15,7 @@ function Study() {
                     <ul className="studyConts1">
                         {/* <NavLink to="/study" className="studyLink">Study board</NavLink> */}
                         <li className="studyWrap1-1">
-                            <NavLink to="/study1_1" className="study1_1" >
+                            <NavLink to="/study1_1" className="study1_1">
                                 <h6>Javascript 기본지식</h6>
                                 <p>
                                     - 정의
