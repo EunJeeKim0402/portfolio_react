@@ -25,7 +25,14 @@ function Study() {
                             </NavLink>
                         </li>
                         <li className="studyWrap1-2">
-                            가나다라
+                            <NavLink to="/study1_2" className="study1_2">
+                                <h6>React의 특징</h6>
+                                <p>
+                                    - 특징
+                                    - 장점
+                                </p>
+                                <img src='https://blog.kakaocdn.net/dn/c5yaqz/btqXXVBqHvp/SEBAeKYrkouV6xZGcWDa9k/img.webp'></img>
+                            </NavLink>
                         </li>
                     </ul>
                     <h2>React</h2>
