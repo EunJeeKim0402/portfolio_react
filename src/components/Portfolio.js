@@ -51,8 +51,9 @@ function Portfolio() {
                         <b># Tech</b>&nbsp;&nbsp;
                         <span>React Scss HTML</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Design ·Frontend</span><br/><br/> 
+                        <span>·Design ·Frontend</span><br/><br/><br/> 
                         <a href="https://github.com/EunJeeKim0402/portfolio_react">source code</a>
+                        <br/><br/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
@@ -67,8 +68,9 @@ function Portfolio() {
                         <b># Tech</b>&nbsp;&nbsp;
                         <span>React HTML CSS firebase</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Frontend</span><br/><br/> 
+                        <span>·Frontend</span><br/><br/> <br/>
                         <a href="https://github.com/EunJeeKim0402/nwitter">source code</a>
+                        <br/><br/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
@@ -83,8 +85,9 @@ function Portfolio() {
                         <b># Tech</b>&nbsp;&nbsp;
                         <span>Flutter Dart</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Frontend</span><br/><br/> 
+                        <span>·Frontend</span><br/><br/><br/>
                         <a href="https://github.com/EunJeeKim0402/toonflix3">source code</a>
+                        <br/><br/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
@@ -99,8 +102,9 @@ function Portfolio() {
                         <b># Tech</b>&nbsp;&nbsp;
                         <span>Javascript Java jQuery Ajax SQL SpringFramework</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Frontend ·Backend</span><br/><br/>
+                        <span>·Frontend ·Backend</span><br/><br/><br/>
                         &nbsp;<a className="img4a" href="https://github.com/EunJeeKim0402/workpeopleProject">source code</a>
+                        <br/><br/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
@@ -115,8 +119,9 @@ function Portfolio() {
                         <b># Tech</b>&nbsp;&nbsp;
                         <span>Javascript Java jQuery Ajax SQL</span><br/> 
                         <b># My Work</b>&nbsp;&nbsp;  
-                        <span>·Frontend ·Backend</span><br/><br/> 
+                        <span>·Frontend ·Backend</span><br/><br/><br/>
                         <a href="https://github.com/EunJeeKim0402/leerProject-1">source code</a>
+                        <br/><br/>
                     </div>
                 </SwiperSlide>
             </Swiper>
