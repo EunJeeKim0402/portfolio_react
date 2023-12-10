@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Header></Header>   
       
-      <Route exact path='/' component={Main}></Route>
+      <Route exact path='/portfolio_react' component={Main}></Route>
       <Route exact path='/career' component={Career}></Route>
       <Route exact path='/portfolio' component={Portfolio}></Route>   
       <Route exact path='/study' component={Study}></Route>

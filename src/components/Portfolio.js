@@ -40,6 +40,7 @@ function Portfolio() {
                 onSlideChange={() => console.log('slice change')}
             >
                 <SwiperSlide className="swiperImg">
+                    {/*<img src={`${url}/img/reactPortfolio.jpg`} alt="img1" className="img1" />*/}
                     <img src={`${url}/img/reactPortfolio.jpg`} alt="img1" className="img1" />
                     <br />
                     <h2>Portfolio</h2>
@@ -57,7 +58,7 @@ function Portfolio() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/React클론코딩.jpg`} alt="img2" className="img2" />
+                    <img src="https://eunjeekim0402.github.io/portfolio_react/img/React.jpg" alt="img2" className="img2" />
                     <br />
                     <h2>React 클론코딩 (노마드코더)</h2>
                     <div className="swiperText">
@@ -74,7 +75,7 @@ function Portfolio() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/dart클론코딩.jpg`} alt="img3" className="img3" />
+                    <img src="https://eunjeekim0402.github.io/portfolio_react/img/dart.jpg" alt="img3" className="img3" />
                     <br />
                     <h2>Flutter 클론코딩 (노마드코더)</h2>
                     <div className="swiperText">
@@ -108,7 +109,7 @@ function Portfolio() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiperImg">
-                    <img src={`${url}/img/Leer.jpg`} alt="img5" className="img5" />
+                    <img src="https://eunjeekim0402.github.io/portfolio_react/img/Leer.jpg" alt="img5" className="img5" />
                     <br />
                     <h2>Leer</h2>
                     <div className="swiperText">
