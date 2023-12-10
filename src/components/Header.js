@@ -55,7 +55,7 @@ function Header(props) {
                     <li><NavLink activeStyle={clickStyle} onMouseEnter={lineMove} to="/career">Career</NavLink></li>
                     <li><NavLink activeStyle={clickStyle} onMouseEnter={lineMove} to="/study">Study</NavLink></li>                
                 </ul>
-                <NavLink className="join" exact activeStyle={clickStyle1} to="/Join" data-text="Contact Me">
+                <a className="join" style={isMenuOpen ? {color: "#2bae29"} : {}} href="mailto:adserina@naver.com" data-text="Contact Me">
                     <span>C</span>
                     <span>o</span>
                     <span>n</span>
@@ -67,7 +67,7 @@ function Header(props) {
                     <span>M</span>
                     <span>e</span>
                     <span className="material-icons-round">arrow_forward_ios</span>
-                </NavLink>
+                </a>
             </div>
         </header>
     )

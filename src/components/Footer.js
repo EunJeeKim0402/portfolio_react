@@ -19,7 +19,7 @@ function Footer() {
                         <li><NavLink exact to="/portfolio">Portfolio</NavLink></li>
                         <li><NavLink exact to="/career">Career</NavLink></li>
                         <li><NavLink exact to="/study">Study</NavLink></li>
-                        <li><NavLink exact to="/join">Contact</NavLink></li>
+                        <li><a href="mailto:adserina@naver.com">Contact</a></li>
                     </ul>
                 </li>
                 <li className="contactUs">

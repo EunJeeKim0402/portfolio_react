@@ -11,6 +11,11 @@ import StudyCS from './components/study/StudyCS';
 import StudyHTML from './components/study/StudyHTML';
 import Study1_1 from './components/study/study_1/Study1_1';
 import Study1_2 from './components/study/study_1/Study1_2';
+import Study2_1 from './components/study/study_2/Study2_1';
+import Study2_2 from './components/study/study_2/Study2_2';
+import Study2_3 from './components/study/study_2/Study2_3';
+import Study2_4 from './components/study/study_2/Study2_4';
+import Study2_5 from './components/study/study_2/Study2_5';
 
 function App() {
   return (
@@ -26,6 +31,11 @@ function App() {
       <Route exact path='/study/html' component={StudyHTML}></Route>
       <Route exact path='/study1_1' component={Study1_1}></Route>
       <Route exact path='/study1_2' component={Study1_2}></Route>
+      <Route exact path='/study2_1' component={Study2_1}></Route>
+      <Route exact path='/study2_2' component={Study2_2}></Route>
+      <Route exact path='/study2_3' component={Study2_3}></Route>
+      <Route exact path='/study2_4' component={Study2_4}></Route>
+      <Route exact path='/study2_5' component={Study2_5}></Route>
 
       <Footer></Footer>   
     </div>

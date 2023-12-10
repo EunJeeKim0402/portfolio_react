@@ -7,7 +7,7 @@ function Study1_2() {
                 <StudyCategory />
                 <main>
                     <div className="topConts"></div>
-                    <h2 className="constTit">React의 특징</h2>
+                    <h2 className="constTit">스타일링, props</h2>
                     <div className='studyContents'>
                         <br/>
                         <h6>React 특징</h6>
