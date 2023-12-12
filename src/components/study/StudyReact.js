@@ -32,25 +32,31 @@ function StudyReact() {
                 </NavLink>
             </Fade>
             <Fade delay={100}>
-                <div className="boardConts">
-                    <div>
-                        <h6>호호</h6>
+                <NavLink to="/study2_3" className="study2_3">
+                    <div className="boardConts">
+                        <div>
+                            <h6>이벤트와 useState</h6>
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             </Fade>
             <Fade delay={150}>
-                <div className="boardConts">
-                    <div>
-                        <h6>호호</h6>
+                <NavLink to="/study2_4" className="study2_4">
+                    <div className="boardConts">
+                        <div>
+                            <h6>input과 state/props와 state</h6>
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             </Fade>
             <Fade delay={200}>
-                <div className="boardConts">
-                    <div>
-                        <h6>호호</h6>
+                <NavLink to="/study2_5" className="study2_5">
+                    <div className="boardConts">
+                        <div>
+                            <h6>호호</h6>
+                        </div>
                     </div>
-                </div>
+                </NavLink>
             </Fade>
             <Fade delay={250}>
                 <div className="boardConts">

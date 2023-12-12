@@ -14,71 +14,85 @@ function StudyHTML() {
                     </div>
                     <br />
                     <Fade>
-                        <NavLink to="/" className="">
+                        <NavLink to="/study4_1" className="/study4_1">
                             <div className="boardConts">
                                 <div>
-                                    <h6>HTML</h6>
+                                    <h6>HTML기초</h6>
                                 </div>
                             </div>
                         </NavLink>
                     </Fade>
                     <Fade delay={50}>
-                        <NavLink to="/" className="">
+                        <NavLink to="/study4_2" className="/study4_2">
                             <div className="boardConts">
                                 <div>
-                                    <h6>HTML</h6>
+                                    <h6>HTML 폼/유효성 검사</h6>
                                 </div>
                             </div>
                         </NavLink>
                     </Fade>
                     <Fade delay={100}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/study4_3" className="/study4_3">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>HTML 규약(컨벤션)</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={150}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/study4_4" className="/study4_4">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>CSS 기초</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={200}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/" className="/">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>호호</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={250}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/" className="/">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>호호</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={300}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/" className="/">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>호호</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={350}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/" className="/">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>호호</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                     <Fade delay={400}>
-                        <div className="boardConts">
-                            <div>
-                                <h6>호호</h6>
+                        <NavLink to="/" className="/">
+                            <div className="boardConts">
+                                <div>
+                                    <h6>호호</h6>
+                                </div>
                             </div>
-                        </div>
+                        </NavLink>
                     </Fade>
                 </main>
             </div>

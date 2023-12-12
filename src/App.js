@@ -16,6 +16,16 @@ import Study2_2 from './components/study/study_2/Study2_2';
 import Study2_3 from './components/study/study_2/Study2_3';
 import Study2_4 from './components/study/study_2/Study2_4';
 import Study2_5 from './components/study/study_2/Study2_5';
+import Study3_1 from './components/study/study_3/Study3_1';
+import Study3_2 from './components/study/study_3/Study3_2';
+import Study3_3 from './components/study/study_3/Study3_3';
+import Study3_4 from './components/study/study_3/Study3_4';
+import Study3_5 from './components/study/study_3/Study3_5';
+import Study4_1 from './components/study/study_4/Study4_1';
+import Study4_2 from './components/study/study_4/Study4_2';
+import Study4_3 from './components/study/study_4/Study4_3';
+import Study4_4 from './components/study/study_4/Study4_4';
+import Study4_5 from './components/study/study_4/Study4_5';
 
 function App() {
   return (
@@ -36,6 +46,16 @@ function App() {
       <Route exact path='/study2_3' component={Study2_3}></Route>
       <Route exact path='/study2_4' component={Study2_4}></Route>
       <Route exact path='/study2_5' component={Study2_5}></Route>
+      <Route exact path='/study3_1' component={Study3_1}></Route>
+      <Route exact path='/study3_2' component={Study3_2}></Route>
+      <Route exact path='/study3_3' component={Study3_3}></Route>
+      <Route exact path='/study3_4' component={Study3_4}></Route>
+      <Route exact path='/study3_5' component={Study3_5}></Route>
+      <Route exact path='/study4_1' component={Study4_1}></Route>
+      <Route exact path='/study4_2' component={Study4_2}></Route>
+      <Route exact path='/study4_3' component={Study4_3}></Route>
+      <Route exact path='/study4_4' component={Study4_4}></Route>
+      <Route exact path='/study4_5' component={Study4_5}></Route>
 
       <Footer></Footer>   
     </div>

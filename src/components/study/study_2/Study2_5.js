@@ -1,6 +1,6 @@
 import StudyCategory from '../StudyCategory';
 
-function Study1_2() {
+function Study2_5() {
     return(
         <section className="studyConts">
             <div className="inner">
@@ -49,4 +49,4 @@ function Study1_2() {
     )
 }
 
-export default Study1_2;
+export default Study2_5;
