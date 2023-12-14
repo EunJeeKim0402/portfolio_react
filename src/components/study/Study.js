@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import StudyCategory from './StudyCategory';
 import Fade from 'react-reveal/Fade';
 import { NavLink } from 'react-router-dom';
@@ -35,8 +37,14 @@ function Study() {
                             </NavLink>
                         </li>
                     </ul>
-                    <h2>React</h2>
+                    <div className='studyTop2'>
+                        <h2>React</h2>
+                        <NavLink to="/study/react" className="studyMore">
+                            더보기 <FontAwesomeIcon icon={faAngleRight} />
+                        </NavLink>
+                    </div>
                     <ul className="studyConts2">
+                        
                         <Fade bottom delay={700}>
                             <li className="studyWrap2-1">
                                 <div className="tit">마바사</div>
@@ -60,7 +68,12 @@ function Study() {
                     </ul>
                     <br />
 
-                    <h2>Computer Science</h2>
+                    <div className='studyTop3'>
+                        <h2>Computer Science</h2>
+                        <NavLink to="/study/cs" className="studyMore">
+                            더보기 <FontAwesomeIcon icon={faAngleRight} />
+                        </NavLink>
+                    </div>
                     <ul className="studyConts3">
                         <Fade bottom delay={900}>
                             <li className="studyWrap3-1">
@@ -85,7 +98,12 @@ function Study() {
                     </ul>
                     <br />
 
-                    <h2>HTML/CSS</h2>
+                    <div className='studyTop4'>
+                        <h2>HTML/CSS</h2>
+                        <NavLink to="/study/html" className="studyMore">
+                            더보기 <FontAwesomeIcon icon={faAngleRight} />
+                        </NavLink>
+                    </div>
                     <ul className="studyConts4">
                         <Fade bottom delay={600}>
                             <li className="studyWrap4-1">

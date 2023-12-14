@@ -7,41 +7,71 @@ function Study1_2() {
                 <StudyCategory />
                 <main>
                     <div className="topConts"></div>
-                    <h2 className="constTit">React의 특징</h2>
+                    <h2 className="constTit">CSS 레이아웃</h2>
                     <div className='studyContents'>
                         <br/>
-                        <h6>React 특징</h6>
-                        <p>HTML과 CSS로 구성된 웹 페이지를 특정 상황에 따라 동적으로 만들어주는 언어.</p>
+                        <h6>Floats</h6>
+                        <p>텍스트 영역에 인라인 이미지를 표시할 수 있게 고안된 속성. 문서의 왼쪽에 사진이 들어가고 오른쪽에 글이 들어가는것처럼 속성을 어떻게 주느냐에 따라서 이미지 요소를 원하는 곳에 배치 가능.<br/></p>
                         <br/><br/>
-                        <img src='https://images.velog.io/images/magnoliarfsit/post/52dfd378-8395-4776-923d-cdd480359bf5/function.png' />
+                        <h6>Positioning</h6>
+                        <p>
+                            해당 엘리먼트가 페이지에 어떻게 위치할지를 지정하는 속성. 포지션에는 아래 속성이 있음.<br/>
+                            static : 기본값. 엘리먼트에 따로 값을 지정하지 않으면 스태틱 값을 가짐. 위치가 지정되지 않았다는 의밍이기도함<br/>
+                            relative : top, right과 같은 속성을 주지 않으면 스태틱이랑 동일하게 위치. top : -20px와 같은 속성부여 가능.<br/>
+                            fixed : 고정 엘리먼트. 사용자에게 비춰지는 화면을 기준으로 위치가 지정됨. 페이지가 넘어가도 동일위치.<br/>
+                            absolute : left, top, right, bottom 값으로 전 화면을 아무런 제약 없이 쓸 수 있는 것<br/>
+                        </p>
                         <br/><br/>
-                        <h6>JavaScript의 문법</h6>
+                        <h6>Display</h6>
                         <p>
-                            예시- let 변수이름 = 할당할값;<br/>
-                            let : 선언할 때 사용하는 키워드<br/>
-                            변수이름 : 데이터를 담는 바구니<br/>
-                            할당할 값 : 바구니에 담은 물건<br/>
-                            변수를 할당할 때는 타입을 정할 수 있는데, 숫자인 Number, 문자열인 String, 참/거짓인 Boolean등이 있음.<br/><br/>
-                            입력에 따라 그에 걸맞은 작업을 하는 하나의 단위. 표현식과 선언식이 있는데, 선언식을 주로 사용.<br/>
-                            예시 - function name(parameter) { }<br/>
-                            함수를 만들 때, return 키워드가 반드시 있어야 값 반환 가능.<br/><br/><br/>
+                            페이지의 레이아웃을 결정하는 속성. 모든 HTML 엘리먼트는 display 값을 갖고 있음.아래는 자주 사용되는 5가지.<br/>
+                            block : 하나의 줄을 차지. 최대한 넓은 가로넓이. div, p, form, header, section 등...<br/>
+                            inline : 특정 텍스트를 감싸는 형태. span, a 등...<br/>
+                            inline-block : 줄바꿈 없이 다른 인라인 엘리먼트와 나란히 배치됨. button 등<br/>
+                            flex : 화면의 비율을 기준으로 레이아웃을 구성할 수 있는 최신 레이아웃 속성.<br/>
+                            none : 화면`에 표시되지 않음. 즉, 화면의 공간을 차지하지 않음. script 등...<br/>
                         </p>
-                        <h6>자바스크립트의 특징</h6>
+                        <br/><br/>
+                        <h6>Box Model</h6>
+                        <img src='https://www.tcpschool.com/lectures/img_css_boxmodel.png' />
                         <p>
-                        1.인터프리터 언어 : 프로그램 소스를 한줄씩 기계어로 번역해서 실행. 소스코드를 실행하는동안 인터프리터가 필요함. 소스코드 수정 후 즉시 실행 결과를 확인할 수 있고, 플랫폼에 종속되지 않고 여러 플랫폼에서 실행할 수 있다는 장점이 있으나 실행 속도가 컴파일언어보다 상대적으로 느리다는 단점이 있음.<br/>
-                        * 인터프리터는 프로그래밍 언어의 실행방식 중 하나임. 소스코드를 한줄씩 읽어들여 실시간으로 해석/실행하는 프로그램. <br/>
-                        2. 동적 프로토타입 기반의 객체지향 언어 : 프로토타입 기반 언어. 동적 프로토타입이므로 개체가 생성된 이후에도 프로퍼티와 메소드를 변경 가능.<br/>
-                        3. 동적타입 언어 : 변수의 타입이 코드 실행중에 결정되며 필요에 따라 변경될 수 있음.<br/>
-                        4. 일급 객체인 함수 : 함수를 객체취급하며, 함수를 인수로 넘길 수 있음.<br/>
-                        5. 함수가 클로저를 정의: 영속적이고 비공개적인 변수를 만들 수 있음. 즉, 클로저 내부에서 선언된 변수가 클로저 외부에서 접근할 수 없으며(비공개적) 함수 호출이 끝나더라도 변수의 값이 유지될 수 있다는 의미(영속적). 클로저가 외부 함수의 환경을 '캡처'하고 그 상태를 유지하는 것이라고도 할 수 있음.<br/>
-                        * 동적 타입 언어 장단점 - 런타임까지 타입에 대한 결정을 끌고갈 수 있어 유연성이 높음. 타입 관련 규칙이 적어 코드가 짧음. 다만 실행 도중 예상치 못한 자료형이 들어와 타입에러 발생 가능성이 있고, 타입 관련 에러는 런타임 시 확인할 수 밖에 없어 코드가 복잡할 경우 에러 찾기가 힘들어짐. 이를 방지하기 위해 TypeScript나 Flow등 사용 가능.<br/>
-                        * 컴파일언어 장단점 - 소스코드를 컴파일러를 사용하여 기계어로 번역하는 과정을 거침. 소스코드 전체를 한번에 분석하고, 기계어로 변환한 후 실행파일을 생성. 실행파일은 컴퓨터에서 직접 실행됨. C언어, 자바 등... 실행속도가 빠르고 컴파일된 실행파일을 다른 시스템에서도 사용할 수 있다는 장점이 있으나, 컴파일 과정이 필요하고 소스코드 수정 시 다시 컴파일을 해야한다는 단점이 있음(컴파일 언어는 하드웨어에 가까운 저수준 연산 수행 -> 실행속도 향상. 인터프리터 언어는 일반적으로 고수준 연산 수행 - 추가적인 추상화와 해석 필요).
+                            1. 내용(content) : 텍스트나 이미지가 들어있는 박스의 실질적인 내용 부분<br/>
+                            2. 패딩(padding) : 내용과 테두리 사이의 간격입니다. 패딩은 눈에 보이지 않음<br/>
+                            3. 테두리(border) : 내용와 패딩 주변을 감싸는 테두리<br/>
+                            4. 마진(margin) : 테두리와 이웃하는 요소 사이의 간격. 마진은 눈에 보이지 않음.<br/>
                         </p>
+                        <br/><br/>
+                        <h6>Flex Box</h6>
+                        <p>
+                            레이아웃 배치 전용 기능으로 고안됨. 아이템들을 가로방향으로 배치하고, 내용물의 width만큼만 차지하게됨(inline요소처럼). height는 컨테이너 높이만큼 늘어남. flex-direction을 통해서 아이템이 배치되는 축의 방향을 변경할 수도 있음. 컨테이너가 초과되었을 때 아이템 줄바꿈 처리도 설정 가능. <br/>
+                        </p>
+                        <h6>Grid</h6>
+                        <p>
+                            flex가 한 방향 레이아웃 시스템이라면, grid는 두방향(가로-세로) 레이아웃 시스템. 내용물 간 간격도 만들 수 있고, 아이템 줄바꿈도 가능. 개별 아이템만 조정하는것도 가능. <br/>
+                        </p>
+                        <h5 className='from'>
+                            출처 :&nbsp;&nbsp;
+                            <span className='fromAddress'>
+                                https://studiomeal.com/archives/282
+                            </span>
+                            <span className='fromAddress'>
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                https://joshua1988.github.io/web-development/css/layout-basic/
+                            </span>
+                            <span className='fromAddress'>
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                https://www.tcpschool.com/css/css_boxmodel_boxmodel
+                            </span>
+                            <span className='fromAddress'>
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                https://studiomeal.com/archives/533
+                            </span>
+                            <span className='fromAddress'>
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                https://studiomeal.com/archives/197
+                            </span>
+                        </h5>
                         <br />
-                        {/* <h6></h6>
-                        <p>
-                            
-                        </p> */}
                     </div>
                 </main>
             </div>

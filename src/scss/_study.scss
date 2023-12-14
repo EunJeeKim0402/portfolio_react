@@ -111,6 +111,39 @@
 				font-size: 0;
             }
         }
+		.table {
+			margin-top: 15px;
+			border-collapse: collapse;
+			width: 70%;
+			border: 1px solid gray;
+		}
+		.table th, .table td {
+			border: 1px solid gray;
+			padding: 8px;
+			text-align: left;
+		}
+		.table th {
+			background-color: #f2f2f2;
+		}
+		.studyTop2,
+		.studyTop3,
+		.studyTop4 {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.studyTop2 p,
+		.studyTop3 p,
+		.studyTop4 p {
+			cursor: pointer;
+			margin-right: 30px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		.studyMore {
+			margin-right: 30px;
+			color: gray;
+		}
 		.studyContents {
 			h6 {
 				font-size: 22px;
