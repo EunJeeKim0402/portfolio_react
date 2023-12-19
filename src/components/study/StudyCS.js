@@ -24,7 +24,7 @@ function StudyCS() {
         <StudyCategory />
         <main>
           <div>
-            <h1>CS페이지임</h1>
+            <h1>Computer Science</h1>
           </div>
           <br />
           {sortedStudies.map((study, index) => (

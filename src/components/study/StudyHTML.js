@@ -22,7 +22,7 @@ function StudyHTML() {
                 <StudyCategory />
                 <main>
                     <div>
-                        <h1>HTML페이지임</h1>
+                        <h1>HTML/CSS</h1>
                     </div>
                     <br />
                     {items.map((item, index) => (
