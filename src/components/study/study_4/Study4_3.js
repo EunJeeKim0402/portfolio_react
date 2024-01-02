@@ -1,4 +1,5 @@
 import StudyCategory from '../StudyCategory';
+import React from 'react';
 
 function Study4_3() {
     return(

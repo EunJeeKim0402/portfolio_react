@@ -1,4 +1,5 @@
 import StudyCategory from '../StudyCategory';
+import React from 'react';
 import { Table } from 'react-bootstrap';
 
 function Study3_5() {
