@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     padding: 126px 0;
-    border-top: solid 1px #4a6869;
+    border-top: solid 1px #005b96;
 	touch-action: none;
 	.inner {
 		display: flex;
@@ -18,10 +18,10 @@ footer {
 			line-height: 1;
 			font-weight: 700;
 			span {
-				color: #4a6869;
+				color: #005b96;
 			}
 			.logoColor {
-				color: #4a6869;
+				color: #005b96;
 			}
 		}
 		p {
@@ -42,7 +42,7 @@ footer {
 				border-radius: 84px;
 				border: solid 1px #e9e9ea;
 				transition: 0.5s;
-				color: #4a6869;
+				color: #005b96;
 				&:hover {
 					background-color: #edf0f0;
 					color: #698182;
@@ -64,11 +64,11 @@ footer {
 				color: #56565c;
 				transition:all 0.5s;
 				&:hover{
-					color:rgb(43, 174, 41);
+					color:#5299c9;
 				}
 			}
 			a {
-				color: #4a6869 !important;
+				color: #005b96 !important;
 			}
 		}
 	}
@@ -86,11 +86,11 @@ footer {
 				color: #56565c;
 				transition:all 0.5s;
 				&:hover{
-					color:rgb(43, 174, 41);
+					color: #5299c9;
 				}
 			}
 			a {
-				color: #4a6869 !important;
+				color: #005b96 !important;
 			}
 		}
 	}

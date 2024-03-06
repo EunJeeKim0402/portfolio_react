@@ -7,8 +7,8 @@ function Header(props) {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const clickStyle = { color: "#2bae29" };
-    const clickStyle1 = { color: "#2bae29", border: "solid 1px #2bae29" };
+    const clickStyle = { color: "#5299c9" };
+    const clickStyle1 = { color: "#5299c9", border: "solid 1px #5299c9" };
     const header = useRef(null);
     const logo = useRef(null);
     const gnb = useRef(null);
