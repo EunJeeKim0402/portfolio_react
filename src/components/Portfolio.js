@@ -45,7 +45,7 @@ function Portfolio() {
                     <br />
                     <h2>Portfolio</h2>
                     <div className="swiperText">
-                        <span>개인 포트폴리오 웹페이지입니다.</span><br/>   
+                        <span>개인 포트폴리오 웹페이지입니다.   </span><br/>   
                         <span>React와 scss를 이용하여 제작했습니다.</span><br/><br/>                       
                         <b># Period</b>&nbsp;&nbsp;
                         <span>2023.08~2023.09</span><br/>    

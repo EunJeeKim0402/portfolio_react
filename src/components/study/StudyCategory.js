@@ -20,6 +20,10 @@ function StudyCategory() {
                         <span>H</span>
                         <NavLink to="/study/html" className="categoryLink">HTML/CSS</NavLink>
                     </li>
+                    <li className="item">
+                        <span>B</span>
+                        <NavLink to="/study/book" className="categoryLink">Book</NavLink>
+                    </li>
                 </ul>
             </aside>
         </>
